@@ -11,4 +11,4 @@ https://developer.nvidia.com/rdp/cudnn-archive找到对应版本的cuDNN下载�
 ![image](https://github.com/user-attachments/assets/1d79986c-ef1f-4239-ac20-13a65f87ed97)  
 复制最后一行“Run this Command:”，其中python版本的CUDA12.4适配的pytorch为  
 这行pip的命令，粘贴到jupyter对话框中或者python命令行中并执行，等待安装成功（如果在内地第一次安装wheel可能稍微久一点，耐心等待，报错了就百度一下）：  
-`<pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124>`  
+`pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124`  
